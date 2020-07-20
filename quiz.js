@@ -71,8 +71,6 @@ function renderQuestion(){
     choiceA.innerHTML = q.choiceA;
     choiceB.innerHTML = q.choiceB;
     choiceC.innerHTML = q.choiceC;
-    choiceC.innerHTML = q.choiceC;
-    choiceC.innerHTML = q.choiceA;
 }
 
 start.addEventListener("click",startQuiz);
