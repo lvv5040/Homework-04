@@ -22,28 +22,28 @@ let questions = [
         correct : "A"
     },{
         question : "What does CSS stand for?",
-        imgSrc : "img/css.png",
+        imgSrc : "images/css.jpg",
         choiceA : "Coding Source Sites",
         choiceB : "Cascading Style Sheets",
         choiceC : "Correct Style Sheet",
         correct : "B"
     },{
         question : "What does JS stand for?",
-        imgSrc : "img/js.png",
+        imgSrc : "images/js.jpg",
         choiceA : "Junior Sheet",
         choiceB : "Just Style",
         choiceC : "Javascript",
         correct : "C"
     }, {
         question : "What does API stand for?",
-        imgSrc : "img/js.png",
+        imgSrc : "images/api.jpg",
         choiceA : "Application Potential Included",
         choiceB : "Acting Programing Interwebs",
         choiceC : "Application Programming Interface",
         correct : "C"
     },{
         question : "What does DOM stand for?",
-        imgSrc : "img/js.png",
+        imgSrc : "images/dom.jpg",
         choiceA : "Document Object Model",
         choiceB : "Database Observation Mechanism",
         choiceC : "Data Office Management",
