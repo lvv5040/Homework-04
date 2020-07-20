@@ -15,7 +15,7 @@ const scoreDiv = document.getElementById("scoreContainer");
 let questions = [
     {
         question : "What does HTML stand for?",
-        imgSrc : "img/html.png",
+        imgSrc : "images/html.jpg",
         choiceA : "Hypertext Markup Language",
         choiceB : "Hard To Manage Lines",
         choiceC : "Hack To Manage Language",
