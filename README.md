@@ -38,5 +38,17 @@ You are required to submit the following for review:
 
 * The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
+URL for deployed application:
+
+
+
+URL for GitHub Repository: 
+
+https://github.com/lvv5040/Homework-04
+
+Screenshot: 
+
+https://github.com/lvv5040/Homework-04/issues/1#issue-661342695
+
 - - -
 © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
