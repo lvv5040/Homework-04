@@ -138,8 +138,8 @@ body {
 #scoreContainer p {
   position: absolute;
   display: block;
-  width: 59px;
-  height: 59px;
+  width: 100px;
+  height: 100px;
   top: 130px;
   left: 325px;
   font-size: 1.5em;

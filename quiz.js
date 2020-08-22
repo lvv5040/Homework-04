@@ -162,11 +162,11 @@ function answerIsWrong() {
 // score render
 function scoreRender() {
   const scorePerCent = Math.round((100 * score) / questions.length);
-  const initials = initialsElement.val().trim();
+  const initials = initialsElement.value;
   if (initials !== "") {
     const highScores = JSON.parse(
-      window.localStorage.getItem("highScores") || []
-    );
+      window.localStorage.getItem("highScores")) || [];
+    
     const newScore = {
       score: scorePerCent,
       intials: initials,
@@ -177,16 +177,18 @@ function scoreRender() {
   // choose the image based on the scorePerCent
   let img =
     scorePerCent >= 80
-      ? "img/5.png"
+      ? "images/5.png"
       : scorePerCent >= 60
-      ? "img/4.png"
+      ? "images/4.png"
       : scorePerCent >= 40
-      ? "img/3.png"
+      ? "images/3.png"
       : scorePerCent >= 20
-      ? "img/2.png"
-      : "img/1.png";
+      ? "images/2.png"
+      : "images/1.png";
 
   scoreDiv.innerHTML = "<img src=" + img + ">";
   scoreDiv.innerHTML += "<p>" + scorePerCent + "%</p>";
 }
-submitButton.onClick = scoreRender
+
+submitButton.addEventListener("click", scoreRender);
+
